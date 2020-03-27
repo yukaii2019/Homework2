@@ -73,8 +73,8 @@ int main(){
             redLED = 1;
             display = table[10];
             while(1){
-                for(float i=0; i<2; i+=0.08 ){
-                    Aout = 0.5 + 0.5*sin(i*3.14159);
+                for(float i=0; i<2; i+=0.08){
+                    Aout = 0.5 + 0.5*sin(i*3.14);
                     wait(delay);
                 }
                 if (Switch==0)
